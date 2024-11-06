@@ -1,11 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './Components/Header';
+// import Footer from './Components/Footer';
+import Home from './Pages/Home';
 
 function App() {
   return (
-    <div className="App" style={{alignItems: 'center', padding: '150px', fontSize: '30px'}}>
-     Welcome to YAFE!
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </main>
+        {/* <Footer /> */}
+      </div>
+    </Router>
   );
 }
 
