@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yafe/static/css/main.b50c3f92.css",
-    "main.js": "/yafe/static/js/main.16e5123d.js",
+    "main.js": "/yafe/static/js/main.bc1f0f39.js",
     "static/js/453.cf2d9cc7.chunk.js": "/yafe/static/js/453.cf2d9cc7.chunk.js",
     "static/media/yafe2.png": "/yafe/static/media/yafe2.71d522a8ad8fd8f7c856.png",
     "static/media/yafe1.png": "/yafe/static/media/yafe1.0d78f2528c822a5896ea.png",
@@ -32,11 +32,11 @@
     "static/media/gallery2.avif": "/yafe/static/media/gallery2.99d5ddd37ec9335e2414.avif",
     "index.html": "/yafe/index.html",
     "main.b50c3f92.css.map": "/yafe/static/css/main.b50c3f92.css.map",
-    "main.16e5123d.js.map": "/yafe/static/js/main.16e5123d.js.map",
+    "main.bc1f0f39.js.map": "/yafe/static/js/main.bc1f0f39.js.map",
     "453.cf2d9cc7.chunk.js.map": "/yafe/static/js/453.cf2d9cc7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b50c3f92.css",
-    "static/js/main.16e5123d.js"
+    "static/js/main.bc1f0f39.js"
   ]
 }
