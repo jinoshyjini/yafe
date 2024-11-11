@@ -1,0 +1,66 @@
+.yafe-gallery-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.yafe-gal-text {
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1em;
+    background-color: #d4d3d2;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.container .row>.col-lg-3,
+.container .row>.col-md-4,
+.container .row>.col-sm-6,
+.container .row>.col-xs-12 {
+    padding: 10px;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 992px) {
+    .yafe-gal-text {
+        font-size: 1em;
+    }
+
+    .yafe-gallery-img {
+        height: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .yafe-gal-text {
+        font-size: 0.9;
+    }
+
+    .yafe-gallery-img {
+        height: 160px;
+    }
+}
+
+@media (max-width: 576px) {
+    .yafe-gal-text {
+        font-size: 0.8;
+    }
+
+    .yafe-gallery-img {
+        height: 140px;
+    }
+}
+
+@media (max-width: 440px) {
+    .yafe-gal-text {
+        font-size: 0.7;
+    }
+
+    .yafe-gallery-img {
+        height: 140px;
+    }
+}

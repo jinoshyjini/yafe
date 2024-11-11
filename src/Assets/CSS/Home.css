@@ -1,15 +1,231 @@
 .home-bg {
     width: 100%;
-    height: 600px;
-    display: block;
+    height: 100vh;
+    max-height: 600px;
+    object-fit: cover; 
+}
+
+.yafe-caro{
+    margin-bottom: 3em;
 }
 
 .home-btn {
-    color: #ffff !important;
+    color: #ffffff !important;
     text-transform: capitalize !important;
     font-size: 1em !important;
-    border-color: #faaf47 !important;
-    background-color: #faaf47 !important;
+    border-color: #f5c014 !important;
+    background-color: #f5c014 !important;
     border-radius: 30px !important;
     padding: 0.5em 1em !important;
+    margin-top: 20px;
+}
+
+ .yafe-txt, .yafe-btn {
+    text-align: center;
+}
+
+.yafe-product {
+    background-color: #f5f5f5;
+    padding: 1em;
+}
+
+.yafe-heading {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.card {
+    border: none;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.yafe-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.yafe-tool {
+    font-size: 1em;
+    font-weight: 600;
+    color: #333;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+
+.yafe-bg {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.yafe-abt {
+    background-color: #efedeb;
+    padding: 20px;
+}
+
+.yafe-head {
+    font-size: 1.8em;
+    font-family: Helvetica;
+    font-weight: 600;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 991px) {
+    .yafe-gap{
+        margin-top: 2em;
+    }
+}
+
+/* Small Screens (up to 768px) */
+@media (max-width: 768px) {
+     .yafe-gap{
+        margin-top: 2em;
+    }
+    .home-bg {
+        height: 50vh;
+    }
+
+    .yafe-caro{
+        margin-bottom: 0em;
+    }
+
+    .yafe-caro-head{
+        font-size: 20px;
+    }
+
+    .home-btn {
+        font-size: 0.9em !important;
+        padding: 0.3em 0.8em !important;
+    }
+
+    .yafe-heading, .yafe-head, .yafe-tool {
+        font-size: 1em;
+    }
+
+    .yafe-txt, .yafe-btn, .yafe-cont {
+        font-size: 1em;
+    }
+
+    .yafe-img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .yafe-pro .card {
+        width: 100%;
+        max-width: 280px;
+        margin: 10px auto;
+    }
+
+    .yafe-gap{
+        margin-top: 2em;
+    }
+}
+
+/* Extra Small Screens (up to 576px) */
+@media (max-width: 576px) {
+    .home-bg {
+        height: 40vh;
+    }
+
+    .yafe-caro-head{
+        font-size: 18px;
+    }
+
+    .yafe-caro-txt{
+        font-size: 14px;
+    }
+
+    .home-btn {
+        font-size: 0.8em !important;
+        padding: 0.3em 0.7em !important;
+    }
+
+    .yafe-heading, .yafe-head, .yafe-tool {
+        font-size: 0.9em;
+    }
+
+    .yafe-txt, .yafe-btn, .yafe-cont {
+        font-size: 0.9em;
+    }
+
+    .yafe-img {
+        width: 40%;
+    }
+
+    .yafe-pro .card {
+        width: 100%;
+        margin: 0.5em 0;
+    }
+
+    .yafe-abt {
+        padding: 10px;
+    }
+
+    .yafe-head, .yafe-head {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 509px) {
+
+    .yafe-caro-head{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .yafe-caro-head{
+        font-size: 14px;
+    }
+
+    .yafe-caro-txt{
+        font-size: 12px;
+    }
+
+    .home-btn {
+        font-size: 0.5em !important;
+        padding: 0.2em 0.5em !important;
+    }
+
+    .yafe-heading, .yafe-head, .yafe-tool {
+        font-size: 0.7em;
+    }
+
+    .yafe-txt, .yafe-btn, .yafe-cont {
+        font-size: 0.7em;
+    }
+
+    .yafe-img {
+        width: 100%;
+    }
+
+    .yafe-pro .card {
+        width: 100%;
+        margin: 0.5em 0;
+    }
+
+    .yafe-abt {
+        padding: 10px;
+    }
+
+    .yafe-head {
+        font-size: 1.4em;
+    }
 }

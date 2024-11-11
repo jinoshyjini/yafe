@@ -65,7 +65,19 @@
     cursor: pointer;
 }
 
-/* Header.css */
+.header-text,
+.header-text-wt {
+  color: #333; /* Default color */
+  transition: color 0.3s ease;
+}
+
+.header-text.active,
+.header-text-wt.active {
+  color: #ffff; /* Active color */
+  font-weight: bold; /* Optional: makes the active link bold */
+  border-bottom: 2px solid #ffff; /* Optional: adds an underline for active link */
+}
+
 
 /* Default (non-active) link styles */
 .header-text,

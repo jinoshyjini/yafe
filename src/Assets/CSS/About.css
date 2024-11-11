@@ -1,0 +1,127 @@
+.yafe-abt-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.yafe-about {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 2em;
+}
+
+.yafe-abt-content {
+    text-align: center;
+    margin: 3em auto 0;
+    max-width: 700px;
+}
+
+.yafe-abt-text {
+    font-weight: bold;
+    color: #333;
+}
+
+.yafe-abt-txt {
+    font-size: 1rem;
+    font-family: Helvetica;
+    color: #333;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.yafe-abt-img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1em;
+}
+
+.yafe-abt-protect {
+    margin: 3em auto 0;
+}
+
+.yafe-abt-env {
+    font-size: 1rem;
+    font-family: Helvetica;
+    color: #333;
+    margin-top: 0.5em;
+    max-width: 550px;
+    line-height: 2em;
+}
+
+.yafe-abt-head {
+    font-size: 1.25rem;
+    font-family: Helvetica;
+    color: #333;
+    margin-top: 1em;
+    max-width: 550px;
+    font-weight: 600;
+}
+
+.yafe-abt-icon {
+    font-size: 2em !important;
+    color: #333;
+}
+
+.yafe-about-support {
+    margin-right: 2em;
+}
+
+/* Responsive Adjustments */
+
+@media (max-width: 992px) {
+    .yafe-abt-text {
+        font-size: 1em;
+    }
+
+    .yafe-abt-head,
+    .yafe-abt-txt,
+    .yafe-abt-env {
+        font-size: 0.9em;
+    }
+
+    .yafe-abt-img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .yafe-abt-text {
+        font-size: 0.9em;
+    }
+
+    .yafe-abt-head,
+    .yafe-abt-txt,
+    .yafe-abt-env {
+        font-size: 0.85em;
+    }
+
+    .yafe-abt-img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .yafe-abt-text {
+        font-size: 0.85em;
+    }
+
+    .yafe-abt-head,
+    .yafe-abt-txt,
+    .yafe-abt-env {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 440px) {
+    .yafe-abt-text {
+        font-size: 0.8em;
+    }
+
+    .yafe-abt-head,
+    .yafe-abt-txt,
+    .yafe-abt-env {
+        font-size: 0.7em;
+    }
+}

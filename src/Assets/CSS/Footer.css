@@ -1,0 +1,185 @@
+.footer-container {
+    background-color: #d7d4d4;
+    padding: 1em 0;
+    font-size: 1em;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0.5em 6.5em;
+}
+
+.footer-text {
+    font-size: 1em;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+
+.footer-txt {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5c014;
+    color: #ffff;
+    padding: 7px 0;
+}
+
+.footer-text-ad {
+    font-size: 1em;
+    display: flex;
+}
+
+.yafe-footer-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.yafe-footer {
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.yafe-address {
+    font-size: 20px !important;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+
+    .footer-content {
+        margin: 0.5em 3em;
+    }
+
+    .footer-text {
+        font-size: 0.9em;
+    }
+
+    .footer-txt {
+        font-size: 0.9em;
+    }
+
+    .footer-text-ad {
+        font-size: 0.9em;
+        display: flex;
+    }
+
+    .yafe-footer {
+        font-size: 1.1em;
+    }
+
+    .yafe-footer-icon {
+        width: 32px;
+    }
+
+    .yafe-address {
+        font-size: 19px !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer-content {
+        margin: 0.5em 2em;
+    }
+
+    .footer-text {
+        font-size: 0.85em;
+    }
+
+    .footer-text-ad {
+        font-size: 0.85em;
+        display: flex;
+    }
+
+    .footer-txt {
+        font-size: 0.85em;
+    }
+
+    .yafe-address {
+        font-size: 18px !important;
+    }
+
+    .yafe-footer {
+        font-size: 1em;
+    }
+
+    .yafe-footer-icon {
+        width: 28px;
+    }
+}
+
+@media (max-width: 748px) {
+
+    .footer-content {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .footer-content {
+        margin: 0.5em 1em;
+    }
+
+    .footer-text {
+        font-size: 0.8em;
+    }
+
+    .footer-text-ad {
+        font-size: 0.8em;
+        display: flex;
+    }
+
+    .footer-txt {
+        font-size: 0.8em;
+    }
+
+    .yafe-footer {
+        font-size: 0.9em;
+    }
+
+    .yafe-footer-icon {
+        width: 24px;
+    }
+
+    .yafe-address {
+        font-size: 17px !important;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .footer-container {
+        padding: 0.5em 0;
+        font-size: 0.75em;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5em;
+    }
+
+    .footer-text {
+        font-size: 0.8em;
+    }
+
+    .footer-txt {
+        font-size: 0.7em;
+    }
+
+    .footer-text-ad {
+        font-size: 0.8em;
+        display: flex;
+    }
+
+    .yafe-footer {
+        font-size: 0.9em;
+    }
+
+    .yafe-footer-icon {
+        width: 20px;
+    }
+}
