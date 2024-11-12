@@ -5,9 +5,9 @@
 }
 
 .footer-content {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; */
     margin: 0.5em 6.5em;
 }
 
@@ -157,26 +157,26 @@
     }
 
     .footer-content {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         margin: 0.5em;
     }
 
     .footer-text {
-        font-size: 0.8em;
+        font-size: 0.85em;
     }
 
     .footer-txt {
-        font-size: 0.7em;
+        font-size: 0.85em;
     }
 
     .footer-text-ad {
-        font-size: 0.8em;
+        font-size: 0.85em;
         display: flex;
     }
 
     .yafe-footer {
-        font-size: 0.9em;
+        font-size: 0.95em;
     }
 
     .yafe-footer-icon {

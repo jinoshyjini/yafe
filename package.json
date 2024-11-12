@@ -25,7 +25,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://www.yafe.ae",
+
+   "homepage": "https://jinoshyjini.github.io/yafe",
+
   "eslintConfig": {
     "extends": [
       "react-app",
