@@ -101,7 +101,7 @@ const Home = () => {
                 <div className='row m-3'>
                     <div className='col-lg-5 col-md-12 col-sm-12 col-12 card yafe-abt'>
                         <div className='p-4'>
-                            <h5 className='yafe-head mb-3'>We Started From 2023</h5>
+                            <h5 className='yafe-head mb-3'>We Started From 2022</h5>
                             <p className='yafe-cont'>
                                 Founded in 2022 and headquartered in Abu Dhabi, U.A.E., It's a distinguished
                                 distributor specializing in Mechanical, Electrical, Plumbing, and oil field products
