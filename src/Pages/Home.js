@@ -103,7 +103,7 @@ const Home = () => {
                         <div className='p-4'>
                             <h5 className='yafe-head mb-3'>We Started From 2023</h5>
                             <p className='yafe-cont'>
-                                Founded in 2023 and headquartered in Abu Dhabi, U.A.E., It's a distinguished
+                                Founded in 2022 and headquartered in Abu Dhabi, U.A.E., It's a distinguished
                                 distributor specializing in Mechanical, Electrical, Plumbing, and oil field products
                                 across the United Arab Emirates. Our central location in Mussafah Industrial area M-9,
                                 Abu Dhabi. Facilitates quick access to our well-stocked showroom and warehouses,

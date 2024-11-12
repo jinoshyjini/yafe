@@ -57,7 +57,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='footer-txt text-center'>© 2023 YAFE Trading LLC & Building Materials All Rights Reserved.</div>
+            <div className='footer-txt text-center'>© 2022 YAFE Trading LLC & Building Materials All Rights Reserved.</div>
         </>
     )
 }
