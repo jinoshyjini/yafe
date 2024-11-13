@@ -38,8 +38,8 @@ function Footer() {
                         <p className='footer-text-ad'>
                             <LocationOnIcon className='yafe-address' />&nbsp; 34 Street 2, Musaffah, Abu Dhabi, <br />&nbsp; United Arab Emirates
                         </p>
-                        <p className='footer-text-ad'><PhoneIcon className='yafe-address' />&nbsp; +971 50 564 6073</p>
-                        <p className='footer-text-ad'><EmailIcon className='yafe-address' />&nbsp; yafegen@gmail.com</p>
+                        <p className='footer-text-ad'><PhoneIcon className='yafe-address' />&nbsp; +971 2 645 4844 <br />&nbsp;&nbsp;+971 50 564 6073</p>
+                        <p className='footer-text-ad'><EmailIcon className='yafe-address' />&nbsp; yafegen@gmail.com <br />&nbsp;&nbsp;sales@yafe.ae</p>
                     </div>
                     <div className='col-5 col-md-4'>
                         <h5 className='yafe-footer mb-2'>Quick Link</h5>

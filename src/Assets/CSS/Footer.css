@@ -42,6 +42,13 @@
     font-size: 20px !important;
 }
 
+.vertical-line-yafe{
+    border-left: 1px solid #ffff;
+    height: 10px;
+    margin: 0.5em;
+    align-self: center;
+}
+
 /* Media Queries */
 @media (max-width: 992px) {
 
