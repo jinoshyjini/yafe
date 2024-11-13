@@ -5,9 +5,6 @@
 }
 
 .footer-content {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
     margin: 0.5em 6.5em;
 }
 
@@ -157,7 +154,6 @@
     }
 
     .footer-content {
-        /* flex-direction: column; */
         align-items: center;
         margin: 0.5em;
     }
@@ -172,7 +168,6 @@
 
     .footer-text-ad {
         font-size: 0.85em;
-        display: flex;
     }
 
     .yafe-footer {

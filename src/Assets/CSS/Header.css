@@ -136,8 +136,12 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .vertical-line {
         display: none !important;
+    }
+
+    .header-icon{
+        font-size: 17px !important;
     }
 }

@@ -47,38 +47,83 @@
     color: #333;
     margin-top: 0.5em;
     max-width: 550px;
-    line-height: 2em;
+    line-height: 1.5em;
+}
+
+.yafe-abt-env-sub {
+    font-size: 0.9em;
+    font-family: Helvetica;
+    color: #333;
+    margin-top: 0.5em;
+    max-width: 550px;
+    line-height: 0em;
+    text-align: center;
+}
+
+.yafe-abt-head-env{    
+    font-size: 1.1em;
+    font-family: Helvetica;
+    color: #333;
+    max-width: 550px;
+    font-weight: 600;
 }
 
 .yafe-abt-head {
-    font-size: 1.25rem;
+    text-align: center;
+    font-size: 1.1em;
     font-family: Helvetica;
     color: #333;
-    margin-top: 1em;
     max-width: 550px;
     font-weight: 600;
 }
 
 .yafe-abt-icon {
-    font-size: 2em !important;
-    color: #333;
+    width: 60px;
 }
 
 .yafe-about-support {
     margin-right: 2em;
+
+    .card {
+        background-color: #fff;
+        border-radius: 8px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        align-items: center;
+        margin-bottom: 10px;
+    }
 }
 
 /* Responsive Adjustments */
+
+@media (max-width: 1200px) {
+.yafe-abt-env-sub {
+    margin-top: 0.5em;
+}
+
+.yafe-abt-icon {
+    width: 60px;
+}
+}
+
 
 @media (max-width: 992px) {
     .yafe-abt-text {
         font-size: 1em;
     }
 
-    .yafe-abt-head,
+    .yafe-abt-head, .yafe-abt-head-env,
     .yafe-abt-txt,
-    .yafe-abt-env {
+    .yafe-abt-env{
         font-size: 0.9em;
+    }
+
+    .yafe-abt-env-sub {
+        font-size: 0.8em;
+    }
+    
+    .yafe-abt-icon {
+        width: 50px;
     }
 
     .yafe-abt-img {
@@ -86,19 +131,33 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 885px) {
+    .yafe-abt-env-sub {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 799px) {
     .yafe-abt-text {
         font-size: 0.9em;
     }
 
-    .yafe-abt-head,
+    .yafe-abt-head, .yafe-abt-head-env,
     .yafe-abt-txt,
     .yafe-abt-env {
         font-size: 0.85em;
     }
 
+    .yafe-abt-env-sub{
+        font-size: 0.65;
+    }
+
     .yafe-abt-img {
         max-width: 100%;
+    }
+
+    .yafe-abt-icon {
+        width: 40px;
     }
 }
 
@@ -107,11 +166,20 @@
         font-size: 0.85em;
     }
 
-    .yafe-abt-head,
+    .yafe-abt-head, .yafe-abt-head-env,
     .yafe-abt-txt,
     .yafe-abt-env {
         font-size: 0.8em;
     }
+
+    .yafe-abt-env-sub{
+        font-size: 0.6em;
+    }
+
+    .yafe-abt-icon {
+        width: 35px;
+    }
+
 }
 
 @media (max-width: 440px) {
@@ -119,9 +187,17 @@
         font-size: 0.8em;
     }
 
-    .yafe-abt-head,
+    .yafe-abt-head, .yafe-abt-head-env,
     .yafe-abt-txt,
     .yafe-abt-env {
         font-size: 0.7em;
+    }
+
+    .yafe-abt-env-sub{
+        font-size: 0.5em;
+    }
+
+    .yafe-abt-icon {
+        width: 30px;
     }
 }

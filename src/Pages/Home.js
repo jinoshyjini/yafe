@@ -2,17 +2,19 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Button } from '@mui/material';
 import Background from '../Assets/Images/yafe1.png';
-import Background1 from '../Assets/Images/yafe5.jpg';
+import Background1 from '../Assets/Images/yafe5.png';
 import Background2 from '../Assets/Images/yafe2.png';
-import Background3 from '../Assets/Images/yafe11.jpg';
-import Product from '../Assets/Images/yafe6.jpg';
-import Product1 from '../Assets/Images/yafe10.jpg';
-import Product2 from '../Assets/Images/yafe8.jpg';
-import Product3 from '../Assets/Images/yafe9.jpg';
+import Background3 from '../Assets/Images/yafe11.png';
+import Product from '../Assets/Images/yafe6.png';
+import Product1 from '../Assets/Images/yafe10.png';
+import Product2 from '../Assets/Images/yafe8.png';
+import Product3 from '../Assets/Images/yafe9.png';
 import '../Assets/CSS/Home.css';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import Profile from '../Assets/Images/LOGO.png';
 
 const Home = () => {
 
@@ -69,7 +71,7 @@ const Home = () => {
                     <p className='yafe-btn' onClick={handleDiscover}>Discover Now <ArrowRightAltIcon /></p>
                 </div>
                 <div className='yafe-product container my-5'>
-                    <h3 className='yafe-heading mb-5 text-center'>CATEGORY</h3>
+                    <h4 className='yafe-category mb-4 text-center'>CATEGORY</h4>
                     <div className='row'>
                         <div className='col-lg-3 col-md-4 col-sm-6 col-12 mb-4'>
                             <div className="card text-center">
@@ -105,7 +107,7 @@ const Home = () => {
                             <p className='yafe-cont'>
                                 Founded in 2022 and headquartered in Abu Dhabi, U.A.E., It's a distinguished
                                 distributor specializing in Mechanical, Electrical, Plumbing, and oil field products
-                                across the United Arab Emirates. Our central location in Mussafah Industrial area M-9,
+                                across the United Arab Emirates. Our central location in Mussafah Industrial area,
                                 Abu Dhabi. Facilitates quick access to our well-stocked showroom and warehouses,
                                 ensuring prompt and reliable service. With a commitment to quality upheld through
                                 stringent checks and efficient distribution, Afreen is your trusted partner for MEP
@@ -124,6 +126,13 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <FloatingWhatsApp
+            phoneNumber="+971505646073"
+            accountName="YAFE TRADING LLC"
+            avatar={Profile} 
+            statusMessage="Typically replies within a few minutes"
+            chatMessage="Hello, how can I assist you today?"
+        />
         </>
     )
 };

@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Assets/CSS/Header.css';
-import logo from "../Assets/Images/LOGO..jpeg.jpg";
+import logo from "../Assets/Images/LOGO.png";
 import PhoneIcon from '@mui/icons-material/Phone';
 
 function Header() {

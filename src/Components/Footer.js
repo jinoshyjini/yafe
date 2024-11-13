@@ -33,27 +33,32 @@ function Footer() {
         <>
             <div className="footer-container">
                 <div className='footer-content row'>
-                    <div className='footer-text col-6 col-sm-4'>
+                    <div className='col-7 col-md-5'>
                         <h5 className='yafe-footer mb-2'>Company Address</h5>
                         <p className='footer-text-ad'>
-                            <LocationOnIcon className='yafe-address' />&nbsp; 34 Street 2, Musaffah, Abu Dhabi, <br /> United Arab Emirates
+                            <LocationOnIcon className='yafe-address' />&nbsp; 34 Street 2, Musaffah, Abu Dhabi, <br />&nbsp; United Arab Emirates
                         </p>
                         <p className='footer-text-ad'><PhoneIcon className='yafe-address' />&nbsp; +971 50 564 6073</p>
                         <p className='footer-text-ad'><EmailIcon className='yafe-address' />&nbsp; yafegen@gmail.com</p>
                     </div>
-                    <div className='footer-text col-6 col-sm-4'>
+                    <div className='col-5 col-md-4'>
                         <h5 className='yafe-footer mb-2'>Quick Link</h5>
-                        <div className='footer-text mb-2' onClick={handleHome}><b>-</b> &nbsp;Home</div>
-                        <div className='footer-text mb-2' onClick={handleAbout}><b>-</b> &nbsp;About</div>
-                        <div className='footer-text mb-2' onClick={handleGallery}><b>-</b> &nbsp;Gallery</div>
-                        <div className='footer-text mb-2' onClick={handleContact}><b>-</b> &nbsp;Contact Us</div>
+                        <p className='footer-text mb-2' onClick={handleHome}><b>-</b> &nbsp;Home</p>
+                        <p className='footer-text mb-2' onClick={handleAbout}><b>-</b> &nbsp;About</p>
+                        <p className='footer-text mb-2' onClick={handleGallery}><b>-</b> &nbsp;Gallery</p>
+                        <p className='footer-text mb-2' onClick={handleContact}><b>-</b> &nbsp;Contact Us</p>
                     </div>
-                    <div className='footer-text col-6 col-sm-4'>
+                    <div className='footer-text col-12 col-md-3'>
                         <h5 className='yafe-footer mb-2'> &nbsp;Social Media</h5>
-                        <img alt="Facebook" src={Facebook} className='yafe-footer-icon' />
-                        <img alt="Instagram" src={Instagram} className='yafe-footer-icon' />
-                        <img alt="Linkedin" src={Linkedin} className='yafe-footer-icon' />
-                        <img alt="Whatsapp" src={Whatsapp} className='yafe-footer-icon' />
+                        <a href="https://www.facebook.com/profile.php?id=100085115624164" target="_blank" rel="noopener noreferrer">
+                            <img alt="Facebook" src={Facebook} className='yafe-footer-icon' />
+                        </a>
+                        <a href="http://linkedin.com/in/yafe-gen-95394b267" target="_blank" rel="noopener noreferrer">
+                            <img alt="Linkedin" src={Linkedin} className='yafe-footer-icon' />
+                        </a>
+                        <a href="https://wa.me/+971505646073" target="_blank" rel="noopener noreferrer">
+                            <img alt="Whatsapp" src={Whatsapp} className='yafe-footer-icon' />
+                        </a>
                     </div>
                 </div>
             </div>

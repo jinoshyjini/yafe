@@ -7,11 +7,12 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Galleries from './Pages/Gallaries';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className=''>
         <Header />
         <main>
           <Routes>
